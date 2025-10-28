@@ -25,7 +25,7 @@ const teamMembers: {image: string, name: string, position: string}[] = [
 ]
 
 export const metadata: Metadata = {
-    title: "About Us | rcbcarpentry",
+    title: "About Us | ALI DESIGN CHICAGO",
     description: "Get to meet us and our team.",
 };
 

@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "rcbcarpentry",
-  description: "Remodeling, Decking, siding, interior and exterior finish,🥇Experienced Pro 🏡Residential ",
-    icons: "/logo.svg",
+  title: "ALI DESIGN CHICAGO",
+  description: "Remodeling, Decking, siding, interior and exterior finish,🥇Experienced Pro 🏡Residential.",
+    icons: "/logo.png",
 };
 
 export default function RootLayout({

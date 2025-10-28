@@ -27,7 +27,7 @@ const projects: Projects[] = [
 ]
 
 export const metadata: Metadata = {
-    title: "Projects | rcbcarpentry",
+    title: "Projects | ALI DESIGN CHICAGO",
     description: "Watch projects framing and finishing.",
 };
 

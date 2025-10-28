@@ -2,6 +2,7 @@ import React from 'react'
 import Link from "next/link";
 import MobileMenu from "@/components/MobileMenu";
 import Button from "@/components/Button";
+import Image from "next/image";
 
 const Navbar = () => {
     return (
@@ -11,7 +12,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-4 text-[#0d141b]">
 
                         <Link href="/">
-                            <h2 className="text-[#0d141b] text-lg font-bold leading-tight tracking-[-0.015em]">rcbcarpentry</h2>
+                            <Image src="/logo.png" alt="logo" width={60} height={60} />
                         </Link>
                     </div>
                     <div className="flex flex-1 justify-end gap-8">

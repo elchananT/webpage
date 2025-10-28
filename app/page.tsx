@@ -54,7 +54,7 @@ const projects: { image: string, title: string, description: string }[] = [
 
 
 export const metadata: Metadata = {
-    title: "Home | rcbcarpentry",
+    title: "Home | ALI DESIGN CHICAGO",
     description: "Remodeling, Decking, siding, interior and exterior finish,🥇Experienced Pro 🏡Residential ",
 };
 
