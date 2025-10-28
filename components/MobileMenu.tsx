@@ -3,6 +3,8 @@
 import React, {useState} from 'react'
 import {Menu, X} from "lucide-react";
 import Link from "next/link";
+import Button from "@/components/Button";
+import Image from "next/image";
 
 const MobileMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +15,7 @@ const MobileMenu = () => {
         <div className="md:hidden">
             <div className="flex items-center gap-8 justify-between px-10 py-3">
                 <Link href="/">
-                    <h2 className="text-[#0d141b] text-lg font-bold leading-tight tracking-[-0.015em]">rcbcarpentry</h2>
+                    <Image src="/logo.png" alt="logo" width={60} height={60} />
                 </Link>
                 <button onClick={handleOpen} className="text-gray-400">
                     { isOpen ? <X /> : <Menu/> }
@@ -29,11 +31,10 @@ const MobileMenu = () => {
                         <Link onClick={handleOpen} className="text-[#0d141b] text-lg font-medium leading-normal" href="/about">About</Link>
                         <Link onClick={handleOpen} className="text-[#0d141b] text-lg font-medium leading-normal" href="/projects">Projects</Link>
                         <Link onClick={handleOpen} className="text-[#0d141b] text-lg font-medium leading-normal" href="/contact">Contact</Link>
-                        <button
-                            onClick={handleOpen}
-                            className="flex cursor-pointer items-center justify-center rounded-2xl h-12 w-32 px-5 bg-[#1172d4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
-                        >
-                            <span className="truncate">Get a Quote</span>
+                        <button onClick={handleOpen}>
+                            <Button>
+                                <span className="truncate">Get a Quote</span>
+                            </Button>
                         </button>
                     </div>
                 </div>

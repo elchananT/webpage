@@ -50,7 +50,7 @@ const Contact = () => {
                     <div className="flex min-w-72 flex-col gap-3">
                         <p className="text-[#0d141b] tracking-light text-[32px] font-bold leading-tight">Contact
                             Us</p>
-                        <p className="text-[#4c739a] text-sm font-normal leading-normal">
+                        <p className="text-[#d4a56c] text-sm font-normal leading-normal">
                             We&#39;re here to help with your remodeling needs. Reach out to us for inquiries,
                             quotes, or any assistance you may require.
                         </p>
@@ -66,7 +66,7 @@ const Contact = () => {
                                 id="name"
                                 {...register("name", {required: "Name is required"})}
                                 placeholder="Your Name"
-                                className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-14 placeholder:text-[#4c739a] p-4 text-base font-normal leading-normal"
+                                className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] focus:outline-0 focus:ring-0 border-none bg-[#d4a56c]/20 focus:border-none h-14 placeholder:text-[#d4a56c] p-4 text-base font-normal leading-normal"
                             />
                         </label>
                         {errors.name && <p className="text-red-400 text-sm mt-1">{errors.name.message}</p>}
@@ -84,7 +84,7 @@ const Contact = () => {
                                     },
                                 })}
                                 placeholder="Your Email"
-                                className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-14 placeholder:text-[#4c739a] p-4 text-base font-normal leading-normal"
+                                className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] focus:outline-0 focus:ring-0 border-none bg-[#d4a56c]/20 focus:border-none h-14 placeholder:text-[#d4a56c] p-4 text-base font-normal leading-normal"
                             />
                         </label>
                         {errors.email && <p className="text-red-400 text-sm mt-1">{errors.email.message}</p>}
@@ -95,14 +95,14 @@ const Contact = () => {
                     id="message"
                     {...register("message", {required: "Message is required"})}
                     placeholder="Your Message"
-                    className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none min-h-36 placeholder:text-[#4c739a] p-4 text-base font-normal leading-normal"
+                    className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] focus:outline-0 focus:ring-0 border-none bg-[#d4a56c]/20 focus:border-none min-h-36 placeholder:text-[#d4a56c] p-4 text-base font-normal leading-normal"
                 ></textarea>
                         </label>
                     </div>
                     <div className="flex px-4 py-3 justify-end">
                         <button
                             type="submit"
-                            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#1172d4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+                            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#d4a56c] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
                         >
                             <span className="truncate">Send Message</span>
                         </button>

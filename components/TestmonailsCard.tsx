@@ -20,7 +20,7 @@ const TestmonailsCards = ({ image, name, rating, description }: TestmonailsCardP
                                     {rating}
                                 </p>
                                 <div className="flex gap-0.5">
-                                    <div className="text-[#1172d4]" data-icon="Star" data-size="20px"
+                                    <div className="text-[#d4a56c]/80" data-icon="Star" data-size="20px"
                                          data-weight="fill">
                                         <Star size={12} />
                                     </div>

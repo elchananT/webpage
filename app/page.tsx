@@ -81,7 +81,7 @@ export default function Home() {
                             </div>
                             <div className="flex-wrap gap-3 flex items-center justify-center w-full mt-12">
                                 <Link href="/contact"
-                                    className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#1172d4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                                    className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#d4a56c] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
                                 >
                                     <span className="truncate">Contact Us</span>
                                 </Link>
@@ -106,7 +106,7 @@ export default function Home() {
                     expectations.
                 </p>
                 <Link href="/about">
-                    <button className="flex items-center ml-4 gap-2 text-[#4c739a] hover:translate-x-1 transition-all duration-200 cursor-pointer mt-6 mb-12">
+                    <button className="flex items-center ml-4 gap-2 text-[#d4a56c]/80 hover:translate-x-1 transition-all duration-200 cursor-pointer mt-6 mb-12">
                         <span>Learn More</span>
                         <ArrowRight className="hover:rotate-45 transition-all duration-200" />
                     </button>
@@ -126,14 +126,14 @@ export default function Home() {
 
                             <div>
                                 <p className="text-[#0d141b] text-base font-medium leading-normal">{title}</p>
-                                <p className="text-[#4c739a] text-sm font-normal leading-normal">{description}</p>
+                                <p className="text-[#d4a56c] text-sm font-normal leading-normal">{description}</p>
                             </div>
                         </div>
                     ))}
 
                 </div>
                 <Link href="/projects">
-                    <button className="flex items-center ml-4 gap-2 text-[#4c739a] hover:translate-x-1 transition-all duration-200 cursor-pointer  mt-6 mb-12">
+                    <button className="flex items-center ml-4 gap-2 text-[#d4a56c]/80 hover:translate-x-1 transition-all duration-200 cursor-pointer  mt-6 mb-12">
                         <span>Learn More</span>
                         <ArrowRight className="hover:rotate-45 transition-all duration-200" />
                     </button>
@@ -165,7 +165,7 @@ export default function Home() {
                     <div className="flex flex-1 justify-center">
                         <div className="flex justify-center">
                             <Link href="/contact"
-                                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#1172d4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
+                                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#d4a56c] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
                             >
                                 <span className="truncate">Contact Us</span>
                             </Link>

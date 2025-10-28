@@ -1,5 +1,6 @@
 import React from 'react'
 import type {Metadata} from "next";
+import Button from "@/components/Button";
 
 const teamMembers: {image: string, name: string, position: string}[] = [
     {
@@ -38,7 +39,7 @@ const Page = () => {
                     <div className="flex min-w-72 flex-col gap-3">
                         <p className="text-[#0d141b] tracking-light text-[32px] font-bold leading-tight">About
                             Us</p>
-                        <p className="text-[#4c739a] text-sm font-normal leading-normal">
+                        <p className="text-[#d4a56c] text-sm font-normal leading-normal">
                             Renovate is a premier remodeling company dedicated to transforming spaces and
                             enhancing lives. With a focus on quality craftsmanship, innovative design, and
                             exceptional customer service, we bring your vision to life.
@@ -90,7 +91,7 @@ const Page = () => {
                             <img src={image} alt="project" className="rounded-lg h-64 w-64 object-cover" />
                             <div>
                                 <p className="text-[#0d141b] text-base font-medium leading-normal">{name}</p>
-                                <p className="text-[#4c739a] text-sm font-normal leading-normal">{position}</p>
+                                <p className="text-[#d4a56c] text-sm font-normal leading-normal">{position}</p>
                             </div>
                         </div>
                     ))}
@@ -114,11 +115,9 @@ const Page = () => {
                         </div>
                         <div className="flex flex-1 justify-center">
                             <div className="flex justify-center">
-                                <button
-                                    className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#1172d4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
-                                >
+                                <Button>
                                     <span className="truncate">Get a Quote</span>
-                                </button>
+                                </Button>
                             </div>
                         </div>
                     </div>

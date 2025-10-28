@@ -39,7 +39,7 @@ const Page = () => {
                     <div className="flex min-w-72 flex-col gap-3">
                         <p className="text-[#0d141b] tracking-light text-[32px] font-bold leading-tight">Our
                             Projects</p>
-                        <p className="text-[#4c739a] text-sm font-normal leading-normal">
+                        <p className="text-[#d4a56c] text-sm font-normal leading-normal">
                             Explore our portfolio of completed remodeling projects, showcasing our commitment to
                             quality and design excellence.
                         </p>
@@ -51,7 +51,7 @@ const Page = () => {
                             <Image src={image} alt="project" width={300} height={300} className="rounded-lg"/>
                             <div>
                                 <p className="text-[#0d141b] text-base font-medium leading-normal">{title}</p>
-                                <p className="text-[#4c739a] text-sm font-normal leading-normal">{description}</p>
+                                <p className="text-[#d4a56c] text-sm font-normal leading-normal">{description}</p>
                             </div>
                         </div>
                     ))}

@@ -3,23 +3,23 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="flex justify-center w-screen bg-slate-200">
+        <footer className="flex justify-center w-screen bg-[#d4a56c]/25">
             <div className="flex max-w-[960px] flex-1 flex-col">
                 <footer className="flex flex-col gap-6 px-5 py-10 text-center @container">
                     <div
                         className="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
-                        <Link className="text-[#4c739a] text-base font-normal leading-normal min-w-40"
+                        <Link className="text-[#d4a56c] text-base font-normal leading-normal min-w-40"
                            href="/">Home</Link>
-                        <Link className="text-[#4c739a] text-base font-normal leading-normal min-w-40"
+                        <Link className="text-[#d4a56c] text-base font-normal leading-normal min-w-40"
                            href="/about">About</Link>
-                        <Link className="text-[#4c739a] text-base font-normal leading-normal min-w-40"
+                        <Link className="text-[#d4a56c] text-base font-normal leading-normal min-w-40"
                            href="/projects">Projects</Link>
-                        <Link className="text-[#4c739a] text-base font-normal leading-normal min-w-40"
+                        <Link className="text-[#d4a56c] text-base font-normal leading-normal min-w-40"
                            href="/contact">Contact</Link>
                     </div>
                     <div className="flex flex-wrap justify-center gap-4">
                         <a href="#">
-                            <div className="text-[#4c739a]" data-icon="InstagramLogo" data-size="24px"
+                            <div className="text-[#d4a56c]" data-icon="InstagramLogo" data-size="24px"
                                  data-weight="regular">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
                                      fill="currentColor" viewBox="0 0 256 256">
@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
                         </a>
                         <a href="#">
-                            <div className="text-[#4c739a]" data-icon="FacebookLogo" data-size="24px"
+                            <div className="text-[#d4a56c]" data-icon="FacebookLogo" data-size="24px"
                                  data-weight="regular">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
                                      fill="currentColor" viewBox="0 0 256 256">
@@ -41,7 +41,7 @@ const Footer = () => {
                             </div>
                         </a>
                         <a href="#">
-                            <div className="text-[#4c739a]" data-icon="TwitterLogo" data-size="24px"
+                            <div className="text-[#d4a56c]" data-icon="TwitterLogo" data-size="24px"
                                  data-weight="regular">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
                                      fill="currentColor" viewBox="0 0 256 256">
@@ -52,7 +52,7 @@ const Footer = () => {
                             </div>
                         </a>
                     </div>
-                    <p className="text-[#4c739a] text-base font-normal leading-normal">© 2025 EL. All
+                    <p className="text-[#d4a56c] text-base font-normal leading-normal">© 2025 EL. All
                         rights reserved.</p>
                 </footer>
             </div>
